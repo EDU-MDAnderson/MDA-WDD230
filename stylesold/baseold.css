@@ -1,0 +1,97 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Sansita", sans-serif;
+    margin: 0; /* Added from snippet D */
+}
+
+/* HEADER */
+header {
+    background-color: #bbb;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+header h1{
+    padding-top: 3rem;
+    font-size: 3rem;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* NAVIGATION */
+
+nav {
+    background-color: #36454f;
+    margin: 0 auto;
+    max-width: 800px;
+}
+nav ul {
+    list-style-type: none;
+}
+nav a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+    border: 1px solid #fff;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+/* MAIN */
+
+main {
+	margin: auto;
+    text-align: center;
+    margin: 2rem;
+}
+.card{
+    outline: auto;
+    outline-color: #54b3f3;
+    outline-offset: 1%;
+
+    align-self:last baseline;
+}
+
+.card li{
+    list-style-type: null;
+}
+.card h3{
+    font-size: large;
+    margin: 0;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #bbb;
+    color: #fff;
+    text-shadow: #36454f 2px;
+}
+
+/* Larger Views ******************************/
+@media (min-width: 640px) {
+	nav ul {
+		display: flex;
+	}
+	nav ul li {
+		flex: 1 1 100%;
+	}
+}
