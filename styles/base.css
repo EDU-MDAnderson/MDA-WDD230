@@ -33,6 +33,13 @@ h1 {
     color: #333; /* Set an appropriate text color */
 }
 
+h2 {
+    font-size: 2rem;
+    color: #333; /* Set an appropriate text color */
+}
+
+
+
 nav {
     background-color: #36454f;
     margin: 0 auto;
@@ -61,6 +68,13 @@ nav a:hover {
 
 /* Larger Views */
 /* Navigation with Flexbox (from provided code) */
+/* Base CSS for mobile view */
+/* Font from Google Fonts API */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Navigation with Flexbox (from provided code) */
 @media (min-width: 640px) {
     nav ul {
         display: flex;
@@ -88,3 +102,11 @@ header .header-content {
 /* Add additional styles for contrast, if needed */
 
 /* Add styles for main content and footer as needed */
+/* Center "Last Modified" and "Copyright" text */
+footer {
+    text-align: center;
+}
+
+footer p {
+    margin: 0; /* Remove default margin to center text vertically */
+}
