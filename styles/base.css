@@ -1,3 +1,17 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: "Sansita", sans-serif;
+    background-color: #fff; /* Set an appropriate background color */
+    color: #333; /* Set an appropriate text color */
+}
+
 /* Mobile styles */
 header {
     background-color: #bbb;
@@ -16,6 +30,7 @@ main {
 
 h1 {
     font-size: 2rem;
+    color: #333; /* Set an appropriate text color */
 }
 
 nav {
@@ -45,6 +60,7 @@ nav a:hover {
 }
 
 /* Larger Views */
+/* Navigation with Flexbox (from provided code) */
 @media (min-width: 640px) {
     nav ul {
         display: flex;
@@ -55,7 +71,7 @@ nav a:hover {
     }
 }
 
-/* Header image and text positioning */
+/* Header image and text positioning (from provided code) */
 header .header-content {
     display: flex;
     align-items: center;
@@ -65,4 +81,10 @@ header .header-content {
     width: 10%;
     height: auto;
     margin-right: 10px;
+    /* Adjust image size and margin as needed for better alignment */
 }
+
+/* Combine this with existing code (bias towards existing code) */
+/* Add additional styles for contrast, if needed */
+
+/* Add styles for main content and footer as needed */

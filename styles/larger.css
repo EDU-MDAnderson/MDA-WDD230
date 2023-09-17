@@ -1,88 +1,30 @@
-/* Reset styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/* larger.css */
 
-/* Global styles */
-body {
-    font-family: "Sansita", sans-serif;
-}
-
-/* Mobile styles */
-header {
-    background-color: #bbb;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-header,
-main {
-    max-width: 767px;
-    margin: 0 auto;
-}
-
-h1 {
-    font-size: 2rem;
-}
-
-nav {
-    background-color: #36454f;
-    margin: 0 auto;
-    max-width: 800px;
-}
-
-nav ul {
-    list-style-type: none;
-}
-
-nav a {
-    display: block;
-    color: #fff;
-    text-align: center;
-    padding: 1rem;
-    text-decoration: none;
-}
-
-nav a:hover {
-    border: 1px solid #fff;
-}
-
-.active {
-    color: yellow;
-}
-
-/* Larger Views */
-@media (min-width: 640px) {
-    body {
-        font-size: 100%; /* Reset the font size */
-    }
-
-    header,
-    main {
-        max-width: 100%; /* Expand to the full width of the screen */
+/* Add styles for larger screens */
+@media (min-width: 768px) {
+    /* Header styles for larger screens */
+    header {
+        padding: 40px; /* Increase header padding */
     }
 
     h1 {
-        font-size: 3rem; /* Adjust the font size as needed */
+        font-size: 3rem; /* Increase header font size */
     }
 
+    /* Navigation styles for larger screens */
     nav ul {
-        display: flex;
-        justify-content: center; /* Center the navigation horizontally */
-    }
-
-    nav ul li {
-        flex: 1; /* Distribute navigation items evenly */
+        justify-content: space-around; /* Adjust navigation layout */
     }
 
     nav a {
-        padding: 1.5rem; /* Adjust the padding as needed */
+        padding: 1rem 2rem; /* Increase link padding */
     }
 
-    /* Add more styles for larger screens as needed */
+    /* Main content styles for larger screens */
+    main {
+        max-width: 100%; /* Allow main content to take full width */
+        padding: 20px; /* Add padding to main content */
+    }
+
+    /* Additional styles for larger screens as needed */
 }
