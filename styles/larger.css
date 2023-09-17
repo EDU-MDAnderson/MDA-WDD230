@@ -81,7 +81,7 @@ main {
 }
 
 .principle {
-    background-color: rgb(236, 236, 236);
+    background-color: #5ac0cf;
     display: flex;
     flex-direction: column;
     border: 1px black solid;
@@ -95,7 +95,7 @@ main {
 }
 
 .principle h3 {
-    background-color: #8db3b9;
+    background-color: #68a6af;
     margin: 0;
     padding-bottom: 5px;
     padding-left: 10px;
