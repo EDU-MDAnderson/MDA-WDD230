@@ -1,0 +1,19 @@
+/* Add styles for larger screens */
+@media (min-width: 768px) {
+    /* Grid container for main content */
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* Two columns, equal width */
+        grid-gap: 20px; /* Gap between columns */
+    }
+
+    /* Style for section 1 (learning activities) */
+    main > section:nth-child(1) {
+        /* Add your styles for section 1 here */
+    }
+
+    /* Style for section 2 (information) */
+    main > section:nth-child(2) {
+        /* Add your styles for section 2 here */
+    }
+}

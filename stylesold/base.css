@@ -33,12 +33,7 @@ h1 {
     color: #333; /* Set an appropriate text color */
 }
 
-h2 {
-    font-size: 2rem;
-    color: #333; /* Set an appropriate text color */
-}
-
-
+/* Remove the h2 styles from base.css */
 
 nav {
     background-color: #36454f;
@@ -61,6 +56,12 @@ nav a {
 nav a:hover {
     border: 1px solid #fff;
 }
+h2 {
+    font-size: 2rem;
+    color: #333; /* Set an appropriate text color */
+    margin: 0; /* Remove default margin to center text vertically */
+}
+
 
 .active {
     color: yellow;
