@@ -4,8 +4,7 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: auto;
 }
-
-hr.paralel {
+hr {
     border-top: .25rem solid #000000;
 }
 
@@ -85,11 +84,5 @@ html {
 h1 {
     font-size: 2em;
     margin: 0.67em 0;
-}
-
-hr {
-    box-sizing: content-box;
-    height: 0;
-    overflow: visible;
 }
 
