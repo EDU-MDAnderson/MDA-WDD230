@@ -1,70 +1,80 @@
-/* Base CSS for mobile view */
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-/* Font from Google Fonts API */
+/* Global styles */
 body {
-    font-family: 'Open Sans', sans-serif;
-}
-/* Header */
-header {
-    background-color: lightcoral; /* Light orange background color */
-    height: 10vh; /* Set the header height to 10% of viewport height */
-    display: flex;
-    align-items: center; /* Center vertically */
-    padding: 0 10px; /* Add padding for spacing */
-    color: white; /* White text color */
+    font-family: "Sansita", sans-serif;
 }
 
-.header-content {
+/* Mobile styles */
+header {
+    background-color: #bbb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+header,
+main {
+    max-width: 767px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+nav {
+    background-color: #36454f;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+    border: 1px solid #fff;
+}
+
+.active {
+    color: yellow;
+}
+
+/* Larger Views */
+@media (min-width: 640px) {
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+    }
+}
+
+/* Header image and text positioning */
+header .header-content {
     display: flex;
     align-items: center;
 }
 
 .imgheadermattjpg {
-    width: 10%; /* Set the image width to 10% of the header width */
-    height: auto; /* Let the height adjust proportionally */
-    margin-right: 10px; /* Add margin to the right of the image */
+    width: 10%;
+    height: auto;
+    margin-right: 10px;
 }
-
-h1 {
-    margin: 0; /* Remove margin to prevent extra space around the name */
-}
-/* Header and Footer */
-header, footer {
-    background-color: lightcoral; /* Light orange background color */
-    padding: 10px;
-    text-align: center;
-    color: white; /* White text color */
-}
-
-/* Navigation with Flexbox */
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: green; /* Green background color for the navbar */
-}
-
-nav li {
-    margin: 10px 0;
-}
-
-/* Navbar links text color */
-nav a {
-    color: white; /* White text color for navbar links */
-}
-
-/* Main element centering */
-main {
-    max-width: 90%;
-    margin: 0 auto;
-}
-
-/* Course links list style */
-ul.course-links {
-    list-style: none;
-    padding: 0;
-}
-
-/* Add more styles specific to mobile view as needed */
