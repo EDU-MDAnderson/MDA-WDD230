@@ -14,3 +14,33 @@ main {
 }
 
 /* Add more styles specific to larger view as needed */
+/* Larger Views */
+@media (min-width: 640px) {
+    body {
+        font-size: 100%; /* Reset the font size */
+    }
+
+    header,
+    main {
+        max-width: 100%; /* Expand to the full width of the screen */
+    }
+
+    h1 {
+        font-size: 3rem; /* Adjust the font size as needed */
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center; /* Center the navigation horizontally */
+    }
+
+    nav ul li {
+        flex: 1; /* Distribute navigation items evenly */
+    }
+
+    nav a {
+        padding: 1.5rem; /* Adjust the padding as needed */
+    }
+
+    /* Add more styles for larger screens as needed */
+}
