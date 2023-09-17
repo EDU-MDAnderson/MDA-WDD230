@@ -1,0 +1,1 @@
+Used chatgpt and google to organize and brainstorm. Used friends code snippet and some sample pages to see the structure of complete pages
