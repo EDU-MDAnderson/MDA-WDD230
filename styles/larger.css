@@ -1,19 +1,61 @@
-/* Larger CSS for screens with a minimum width breakpoint */
-
-/* Flex Navigation - Display horizontally */
-nav ul {
-    flex-direction: row;
-    justify-content: space-around;
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-/* Grid layout for main content */
+/* Global styles */
+body {
+    font-family: "Sansita", sans-serif;
+}
+
+/* Mobile styles */
+header {
+    background-color: #bbb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+header,
 main {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
+    max-width: 767px;
+    margin: 0 auto;
 }
 
-/* Add more styles specific to larger view as needed */
+h1 {
+    font-size: 2rem;
+}
+
+nav {
+    background-color: #36454f;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+    border: 1px solid #fff;
+}
+
+.active {
+    color: yellow;
+}
+
 /* Larger Views */
 @media (min-width: 640px) {
     body {
