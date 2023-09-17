@@ -42,9 +42,12 @@ nav a {
 main {
     margin: auto;
     text-align: center;
-    margin: 1rem;
 }
-
+h2 {
+    display: block;
+    margin: 5px;
+}   
+    
 .card {
     outline: auto;
     outline-color: black;
