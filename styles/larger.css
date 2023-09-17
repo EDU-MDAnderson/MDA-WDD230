@@ -1,25 +1,11 @@
-
-/* Add styles for larger screens */
-/* Larger screen styles (larger.css) */
 @media (min-width: 768px) {
-    /* ... (previous styles) */
-
     /* Grid container for main content */
     main {
         display: grid;
         grid-template-columns: 1fr 1fr; /* Two columns, equal width */
         grid-gap: 20px; /* Gap between columns */
     }
-
-    /* Style for section 1 (learning activities) */
-    main > section:nth-child(1) {
-        /* Add your styles for section 1 here */
-    }
-
-    /* Style for section 2 (information) */
-    main > section:nth-child(2) {
-        /* Add your styles for section 2 here */
-    }
+}
 
     /* Center "Last Modified" and "Copyright" text */
     footer {
@@ -29,4 +15,3 @@
     footer p {
         margin: 0; /* Remove default margin to center text vertically */
     }
-}
