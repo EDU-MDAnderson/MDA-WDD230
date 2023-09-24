@@ -41,6 +41,17 @@
 .wireframes h2 {
     grid-column: span 2; /* Span 2 columns */
 }
+nav {
+    background-color: black;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    display: block;
+    padding: .5rem;
+    font-size: 2rem;
+}
 
 body {
     width: 100%;
