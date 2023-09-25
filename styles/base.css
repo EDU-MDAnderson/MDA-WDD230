@@ -4,6 +4,7 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: auto;
 }
+span {background-color: red}
 hr {
     border-top: .25rem solid #000000;
 }
