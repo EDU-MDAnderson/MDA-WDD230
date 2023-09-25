@@ -1,5 +1,3 @@
-/* Existing CSS styles here */
-
 /* Mobile menu styles */
 .mobile-menu-toggle {
     display: none;
@@ -32,5 +30,3 @@ nav a {
     color: white;
     transition: color 0.3s;
 }
-
-/* Add more CSS styles as needed for the mobile menu */
