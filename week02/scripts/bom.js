@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
             // Provide a message or alert the user to enter a book and chapter.
             // You can use alert or some other method to communicate this to the user.
             // For example:
-            // alert('Please enter a book and chapter.');
+            alert('Please enter a book and chapter.');
             input.focus();
         }
     });
