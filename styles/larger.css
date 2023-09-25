@@ -32,7 +32,7 @@ h1 {
 }
 
 nav {
-	background-color: #36454f;
+	background-color: #002E5D;
 	margin: 0 auto;
 	max-width: 800px;
 }
@@ -115,7 +115,7 @@ footer {
 
 @media only screen and (min-width: 32rem) {
     span {background-color: green}
-    
+
     main {
         grid-template-columns: repeat(3, 1fr);
     }

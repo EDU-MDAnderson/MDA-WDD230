@@ -8,18 +8,18 @@ span {background-color: red}
 hr {
     border-top: .25rem solid #000000;
 }
-.dark-mode main {
+/* .dark-mode main {
     background-color: #1f1f1f;
     color: #ffffff;
   }
 /* Dark mode styles for the toggle button */
-#darkModeToggle {
+/* #darkModeToggle {
     background-color: #333;
     color: #fff;
     border: none;
     padding: 8px 16px;
     cursor: pointer;
-  }
+  } */
   
 header {
     background-color: #8efbff;
