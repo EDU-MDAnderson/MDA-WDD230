@@ -8,7 +8,7 @@ span {background-color: red}
 hr {
     border-top: .25rem solid #000000;
 }
-.dark-mode {
+.dark-mode main {
     background-color: #1f1f1f;
     color: #ffffff;
   }
