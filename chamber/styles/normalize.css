@@ -1,0 +1,129 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+ol,
+li,
+dl,
+dd,
+dt,
+form,
+fieldset,
+legend,
+blockquote,
+button,
+input,
+textarea,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-weight: normal;
+    vertical-align: baseline;
+    font-family: inherit;
+}
+
+/* Correct the font size and margin on 'h1' elements within 'section' and 'article' contexts */
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+/* Define consistent line-heights for all elements */
+body,
+button,
+input,
+select,
+textarea {
+    line-height: 1.5;
+}
+
+/* Remove list styles (bullets and numbers) */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Correct display for some HTML5 elements */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary {
+    display: block;
+}
+
+/* Improve readability when 'blockquote' elements are nested */
+blockquote {
+    margin: 1em 40px;
+}
+
+/* Remove the border on images within 'a' elements, unless the image is a link */
+a img {
+    border: none;
+}
+
+/* Reset anchor styles */
+a {
+    text-decoration: none;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+/* Reset form element styles */
+button,
+input,
+select,
+textarea {
+    font-size: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+/* Ensure that inputs behave consistently across browsers */
+input[type="text"],
+input[type="password"],
+textarea {
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 0;
+}
+
+/* Normalize button and submit button styles */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+    -webkit-appearance: none;
+    appearance: none;
+    cursor: pointer;
+}
+
+/* Set consistent box-sizing for all elements */
+* {
+    box-sizing: border-box;
+}
+
+/* Specify default font styles and sizes */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Add more normalization rules as needed */
+
+/* Optional: Additional styles or customizations for your project can be added below */
