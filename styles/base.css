@@ -51,6 +51,26 @@ nav a {
     padding: .5rem;
     font-size: 2rem;
 }
+/* Provided styles for #hero-box, #hero-img, and #hero-msg */
+#hero-box {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
+#temple-img {
+    width: 100%;
+}
+
+hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+    color: black;
+}
 
 main {
     margin: auto;
