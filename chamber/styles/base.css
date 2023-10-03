@@ -29,7 +29,9 @@ nav {
     /* Remove margin to bring nav closer to the hero section */
     /* margin: 0; */
 }
-
+#menu-items {
+    display: block;
+  }
 nav a {
     color: white;
     display: block;
@@ -217,8 +219,14 @@ main .wireframes img {
     display: block;
     margin-top: 10px;
 }
+#menu-items {
+    display: none; /* Hide the menu by default on smaller screens */
+  }
+#menu-items.active {
+    display: block; /* Display the menu when active */
+}
 
-@media screen and (max-width: 37.5em) {
+
     .navigation {
         display: none;
         position: absolute;
@@ -245,16 +253,18 @@ main .wireframes img {
         color: #fff;
         text-decoration: none;
     }
-    
     #menu {
+        display: none;
+    }
+    /* #menu {
         display: block;
-        background-color: #f00;
+        background-color: #333;
         color: #fff;
         border: none;
-        font-size: 2rem;
+        font-size: 1.5rem;
         padding: 1rem;
         cursor: pointer;
-    }
+      } */
 
     nav ul {
         flex-direction: column;
@@ -271,4 +281,3 @@ main .wireframes img {
     #hero-msg h2 {
         font-size: 1.5rem; /* Adjust font size for smaller screens */
     }
-}
