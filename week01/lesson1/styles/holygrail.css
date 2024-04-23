@@ -12,7 +12,7 @@ header {
 }
 
 main-navigation {
-  background-color: #bed;
+  background-color: lightseagreen;
   grid-column: 1/3;
   padding: 1rem;
 }
